@@ -1,15 +1,151 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,400;1,600;1,700&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --d-color :#F48C06;
+    --dark : #252641;
+    --dark-text : #696984;
+}
+
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
 
+.logo {
+    max-width: 120px;
+}
+
+a.nav-link {
+    color: var(--dark);
+    font-size: 18px;
+}
+
+.login, .sign-up{
+    width: 100px;
+    font-weight: 500;
+}
+
+.sign-up {
+    background-color: var(--d-color);
+} 
+
 .head-hero-bg {
     background: #FFF2E1;
+}
+
+header {
+    height: auto;
+    clip-path: circle(199vh at 50% -103vh) !important;
 }
 
 main {
     background-color: #ffffff;
 }
 
+.d-orange {
+    color: var(--d-color);
+}
+
+.hero-img {
+    width: 404px;
+}
+
+.join {
+    background-color: var(--d-color);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.play-btn {
+    width: 85px;
+    height: 85px;
+}
+
+.assisted {
+    width: 200px;
+    top: 145px;
+    left: 155px;
+}
+
+.grp-9 {
+    width: 77px;
+    top: 114px;
+    left: 577px;
+}
+
+.grp-13 {
+    width: 256px;
+    height: 116px;
+    top: 338px;
+    left: 143px;
+    background-color: #FFFDFA;
+    border-radius: 15px;
+    filter: blur(90%);
+}
+
+.joinNow {
+    background: #D8587E;
+    font-size: 14px;
+    text-align: center;
+    width: 120px;
+}
+
+.grp-13 span p:first-child {
+    font-size: 16px;
+}
+
+.grp-13 span p:last-child {
+    font-size: 12px;
+} 
+
+.grp-10 {
+    width: 200px;
+    top: 258px;
+    right: 205px;
+}
+
+.green-ellips {
+    top: 55px;
+    right: 190px;
+}
+
+.done-sign {
+    width: 15px;
+    top: 10px;
+    right: 9px;
+}
+
+.all-in-one {
+    margin: 130px 0px;
+}
+
+.all-in-wrap h1{
+    font-size: 36px;
+}
+
+.all-in-wrap p {
+    font-size: 18px;
+    width: 588px;
+}
+
+.trusted, .all-in-wrap p, .card-body p {
+    color: var(--dark-text);
+}
+
+.grp-79, .grp-80, .grp-81 {
+    width: 100px;
+    bottom: 210px;
+    left: 117px;
+} 
+
+.all-standerd {
+    color: #3D0380;
+}
+
+.rectangle {
+    color: #2F327D;
+}
