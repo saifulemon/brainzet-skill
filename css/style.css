@@ -9,13 +9,14 @@
 
 :root {
     --d-color :#F48C06;
-    --dark : #252641;
-    --dark-text : #696984;
+    --dark-text : #3D0380;
 }
 
 body {
     font-family: 'IBM Plex Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+    overflow-x: hidden;
 }
 
 /* custom css */
@@ -37,6 +38,20 @@ body {
     color: #6C6C6C !important;
     background-color: #ffffff;
     border: 2px solid #FFFFFF;
+}
+
+.d-orange {
+    color: var(--d-color);
+}
+
+.clip-path {
+    display: block;
+    position: relative;
+    bottom: 240px;
+}
+
+header {
+    height: 86vh;
 }
 
 /* for nav */
@@ -90,57 +105,78 @@ body {
     font-size: 17px;
 }
 
-.head-hero-bg {
-    background: #FFF2E1;
-}
 
-main {
-    background-color: #ffffff;
-}
-
+/* for hero section */
 .hero-sec {
-    height: 550pxz;
+    padding: 80px 0 40px 0;
+    background-color: #FFF2E1;
 }
 
-.d-orange {
-    color: var(--d-color);
+.hero-sec .hero-title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 1.25;
+    margin-bottom: 25px;
+    color: var(--dark-text);
+}
+
+.hero-sec .hero-subtitle {
+    font-family: Nunito Sans;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 650px;
+    color:#464646;
+}
+
+.hero-sec .join-btn {
+    padding: 20px 25px;
+}
+
+.hero-sec .watch-txt {
+    font-weight: 400;
+    font-size: 16px;
+    color: #252641;
 }
 
 .hero-img {
-    width: 404px;
-}
-
-.join {
-    background-color: var(--d-color);
-    font-size: 18px;
-    font-weight: 600;
-}
-
-.play-btn {
-    width: 85px;
-    height: 85px;
+    max-width: 404px;
 }
 
 .assisted {
     width: 200px;
     top: 145px;
-    left: 155px;
+    left: 100px;
 }
 
 .grp-9 {
     width: 77px;
     top: 114px;
-    left: 577px;
+    left: 517px;
+}
+
+.grp-10 {
+    width: 200px;
+    top: 258px;
+    right: 145px;
 }
 
 .grp-13 {
     width: 256px;
     height: 116px;
-    top: 338px;
-    left: 143px;
+    top: 330px;
+    left: 85px;
     background-color: #FFFDFA;
     border-radius: 15px;
     filter: blur(90%);
+}
+
+.grp-13 span p:first-child {
+    font-size: 15px;
+}
+
+.grp-13 span p:last-child {
+    font-size: 12px;
 }
 
 .joinNow {
@@ -150,19 +186,11 @@ main {
     width: 120px;
 }
 
-.grp-13 span p:first-child {
-    font-size: 16px;
+.play-btn {
+    width: 85px;
+    height: 85px;
 }
 
-.grp-13 span p:last-child {
-    font-size: 12px;
-} 
-
-.grp-10 {
-    width: 200px;
-    top: 258px;
-    right: 205px;
-}
 
 .green-ellips {
     top: 55px;
